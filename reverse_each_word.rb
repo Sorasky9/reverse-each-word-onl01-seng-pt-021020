@@ -9,4 +9,8 @@ end
 
 def reverse_each_word(phrase)
 phrase = phrase.split
-phrase.each
+phrase.collect do |word| phrase.reverse
+
+
+end
+end
